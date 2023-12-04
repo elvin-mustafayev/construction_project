@@ -1,0 +1,695 @@
+/* fonts starts*/
+/* fonts starts */
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-BoldItalic";
+  src: url("fonts/Ubuntu/Ubuntu-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-Italic";
+  src: url("fonts/Ubuntu/Ubuntu-Italic.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("fonts/Ubuntu/Ubuntu-Light.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-LightItalic";
+  src: url("fonts/Ubuntu/Ubuntu-LightItalic.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("fonts/Ubuntu/Ubuntu-Medium.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-MediumItalic";
+  src: url("fonts/Ubuntu/Ubuntu-MediumItalic.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+.const-img-cover {
+  height: 400px;
+}
+
+.const-img-cover img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.construction-steps {
+  margin-top: 120px;
+  margin-bottom: 180px;
+}
+
+.const-info {
+  padding: 40px 80px;
+}
+
+.const-info-header {
+  color: #1e212c;
+  font-size: 32px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.const-info-text {
+  color: #787a80;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.const-btn {
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 44px;
+  border: 1px solid #ff5a30;
+  min-width: 96px;
+  border-radius: 4px;
+  padding: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+}
+
+.const-btn a {
+  color: #ff5a30;
+}
+
+.construction-rows {
+  margin-bottom: 120px;
+}
+
+.building-img-conainer {
+  height: 800px;
+}
+
+.building-img-conainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.request-h3 {
+  font-size: 28px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 24px;
+}
+
+.form-elements input {
+  margin-bottom: 20px;
+}
+
+.form-labels {
+  color: #424551;
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.form-inputs {
+  border-radius: 4px;
+  border: 1px solid #d7dadd;
+  background: #f4f5f6;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  color: #9a9ca5;
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.message-box {
+  padding-top: 11px;
+  padding-bottom: 34px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid #d7dadd;
+  background: #f4f5f6;
+}
+
+.checkbox-elements label {
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 21px;
+  color: #424551;
+}
+.checkbox-elements input {
+  accent-color: #ff5a30;
+  height: 16px;
+  width: 16px;
+}
+
+.form-container {
+  border-radius: 4px;
+  border: 1px solid #e5e8ed;
+  background: #fff;
+  padding: 48px 40px 48px 40px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 60px 80px -20px rgba(30, 33, 44, 0.16);
+}
+
+.request-form {
+  top: 80px;
+  right: 60px;
+}
+
+.request_btn {
+  margin-top: 24px;
+}
+.request_btn button {
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 30px;
+  color: #fff;
+  background-color: #ff5a30;
+  padding-left: 16px;
+  padding-right: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.social-nav ul li {
+  display: inline;
+  margin-left: 0;
+}
+
+.mission-info {
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 24px;
+  max-width: 493px;
+}
+
+.about-headers {
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.about-left {
+  margin-top: 73px;
+}
+
+.head-off-inf li {
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 24px;
+}
+.head-off-inf span {
+  opacity: 0.6;
+}
+.head-off-inf a {
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+.right-content ul li {
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sub-btn {
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: #ff5a30;
+  letter-spacing: 0.5px;
+}
+
+.sub-side-p {
+  font-size: 18px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 0.6;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.subscribe-header {
+  margin-bottom: 24px;
+}
+
+.copyright-p {
+  font-size: 12px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.top-link {
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.top-img {
+  position: relative;
+  bottom: 20px;
+  margin-left: 6px;
+}
+
+.main-header {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  left: 0;
+  color: #1e212c;
+}
+
+.header-logo img {
+  height: 22px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.header-logo {
+  margin-right: 20px;
+}
+
+.main-navbar ul li {
+  margin-left: 40px;
+}
+
+.main-navbar ul li a {
+  color: rgba(11, 11, 11, 0.6);
+}
+
+.main-navbar ul li a:hover,
+.main-navbar ul .active a {
+  color: #ff5a30;
+}
+
+.header-contact p {
+  margin-left: 12px;
+}
+
+.header-contact span {
+  color: #424551;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header-contact a {
+  color: #1e212c;
+}
+
+.header-contact a:hover {
+  color: #fc3300;
+}
+
+.header-contact li:first-child {
+  margin-right: 36px;
+}
+
+.head-section {
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.head-img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.head-layer {
+  height: 100%;
+  padding-top: 112px;
+}
+
+.custom-breadcrumb .breadcrumb-item a {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+
+.custom-breadcrumb .breadcrumb-item,
+.breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(11, 11, 11, 0.6);
+}
+
+.head-h1 {
+  font-size: 72px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: 1px;
+  color: #1e212c;
+  margin-top: 40px;
+}
+
+.services-text {
+  max-width: 500px;
+}
+
+.footer-main {
+  padding-left: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.construction-steps .container :nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-close {
+    display: none;
+  }
+  .top-img {
+    width: 36px;
+    bottom: 16px;
+    margin-left: 12px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .main-navbar ul li {
+    margin-left: 26px;
+  }
+  .main-navbar ul li a,
+  .header-contact a {
+    font-size: 14px;
+  }
+  .menu-close {
+    display: none;
+  }
+  .top-img {
+    bottom: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header-logo img {
+    height: 16px;
+  }
+  .project-goal .col-md-8,
+  .project-goal .col-md-4 {
+    width: 100%;
+  }
+  .goal-info {
+    max-width: 100%;
+  }
+  .project-goal-details {
+    margin-bottom: 32px;
+    padding: 24px;
+  }
+  .project-goal {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-img-logo {
+    width: 120px;
+  }
+  .top-img {
+    width: 32px;
+    bottom: 12px;
+  }
+  .footer-main {
+    padding-left: 11px;
+    padding-top: 74px;
+    padding-bottom: 69px;
+  }
+  .social-nav {
+    margin-left: 0;
+  }
+  .social-nav ul li {
+    display: inline;
+    margin-left: 7px;
+  }
+  .main-navbar {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
+  .main-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menu-close {
+    display: block;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.7254901961);
+    border-radius: 4px;
+  }
+  .menu-close img {
+    position: relative;
+    top: -1px;
+  }
+  .goal-info h2,
+  .const-h4 {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  .carousel-project-goal .carousel-item {
+    height: 60vw;
+  }
+  .request-form {
+    top: 80px;
+    right: 40px;
+  }
+  .const-info-header {
+    font-size: 24px;
+  }
+  .const-info {
+    padding: 40px 15px 35px 23px;
+  }
+  .head-h1 {
+    font-size: 66px;
+    line-height: 71px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .subscribe-side {
+    margin-top: 36px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .social-links a img {
+    width: 24px;
+  }
+  .head-img {
+    height: 400px;
+  }
+  .head-section {
+    min-height: 400px;
+  }
+  .head-layer {
+    padding-top: 96px;
+  }
+  .request-form {
+    right: 6px;
+  }
+  .request-h3 {
+    font-size: 20px;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+  .message-box {
+    padding-top: 8px;
+    padding-bottom: 12px;
+    font-size: 14px;
+  }
+  .form-container {
+    padding: 50px 21px 29px 23px;
+  }
+  .head-h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .const-btn {
+    font-size: 14px;
+    padding: 14px;
+  }
+  .construction-rows {
+    margin-bottom: 50px;
+  }
+  .construction-steps {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  .sub-side-p {
+    font-size: 14px;
+  }
+  .mission-info {
+    font-size: 14px;
+  }
+  .form-elements input {
+    margin-bottom: 12px;
+  }
+  .social-nav {
+    margin-left: 10px;
+  }
+  .social-nav ul li {
+    margin-left: 0;
+  }
+  .copyright-p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 9px;
+  }
+  .top-link {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .social-nav {
+    margin-left: 0;
+  }
+  .social-links li a img {
+    width: 16px;
+  }
+  .footer-img-logo {
+    width: 90px;
+  }
+  .top-img {
+    width: 16px;
+    bottom: 4px;
+  }
+  .copyright-p {
+    font-size: 8px;
+  }
+  .top-link {
+    font-size: 8px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .social-nav {
+    margin-left: 0;
+  }
+  .request-h3 {
+    font-size: 16px;
+  }
+  .social-links li a img {
+    width: 14px;
+  }
+  .footer-img-logo {
+    width: 60px;
+  }
+  .about-headers {
+    font-size: 14px;
+  }
+  .about-left {
+    margin-top: 30px;
+  }
+  .mission-info {
+    font-size: 10px;
+  }
+  .sub-btn {
+    font-size: 9px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    line-height: 10px;
+    background-color: #ff5a30;
+    letter-spacing: -0.5px;
+  }
+  .form-inputs {
+    border-radius: 4px;
+    border: 1px solid #d7dadd;
+    background: #f4f5f6;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    color: #9a9ca5;
+    font-size: 14px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .message-box {
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    font-size: 15px;
+  }
+  .checkbox-elements label {
+    font-size: 12px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    line-height: 20px;
+    color: #424551;
+  }
+  .form-labels {
+    color: #424551;
+    font-size: 12px;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .request_btn button {
+    font-size: 12px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    background-color: #ff5a30;
+    padding-left: 13px;
+    padding-right: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .request-form {
+    right: 0;
+  }
+  .form-container {
+    padding: 22px 20px 20px 28px;
+  }
+  .top-img {
+    width: 20px;
+    position: relative;
+    bottom: 4px;
+    margin-left: 4px;
+  }
+  .copyright-p {
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 9px;
+  }
+  .top-link {
+    font-size: 7px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}
