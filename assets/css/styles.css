@@ -434,6 +434,11 @@
     padding-bottom: 32px;
   }
 }
+@media screen and (min-width: 767.98px) and (max-width: 992px) {
+  .social-nav ul li {
+    margin-left: 0;
+  }
+}
 @media screen and (max-width: 992px) {
   .footer-img-logo {
     width: 120px;
@@ -500,11 +505,6 @@
 @media screen and (max-width: 767.98px) {
   .subscribe-side {
     margin-top: 36px;
-  }
-}
-@media screen and (min-width: 767.98px) and (max-width: 992px) {
-  .social-nav ul li {
-    margin-left: 0;
   }
 }
 @media screen and (max-width: 576px) {
