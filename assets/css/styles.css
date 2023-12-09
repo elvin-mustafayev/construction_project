@@ -502,6 +502,11 @@
     margin-top: 36px;
   }
 }
+@media screen and (min-width: 767.98px) and (max-width: 992px) {
+  .social-nav ul li {
+    margin-left: 0;
+  }
+}
 @media screen and (max-width: 576px) {
   .social-links a img {
     width: 24px;
